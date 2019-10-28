@@ -7,8 +7,10 @@ import org.junit.jupiter.api.Test;
 class testOperationsOptions {
 
 	@Test
-	void test() {
-		fail();
+	void testOperationsOPtions() {
+		OperationOptions op = new OperationOptions();
+		String[] availableOptions= {"Add", "Subtract", "Multiply", "Divide", "Modulus", "Quit"};
+		assertArrayEquals(availableOptions, op.availableOptions);
 	}
 
 }
