@@ -1,5 +1,9 @@
 package com.calculatorOperations.SimpleCalculator;
 
 public abstract class Operations {
-	return 1.0;
+	public double firstNumber;
+	public double secondNumber;
+	
+	abstract public double numberOperations();
 }
+

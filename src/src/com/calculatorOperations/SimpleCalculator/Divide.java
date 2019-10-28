@@ -2,6 +2,12 @@ package com.calculatorOperations.SimpleCalculator;
 
 public class Divide extends Operations{
 	public double numberOperations() {
-		return 1.0;
+		
+		if (this.secondNumber != 0){
+			return this.firstNumber / this.secondNumber;
+		}
+		else
+			return Double.POSITIVE_INFINITY;
 	}
 }
+
