@@ -8,7 +8,8 @@ class testSendError {
 
 	@Test
 	void test() {
-		fail();
+		SendError testSendError = new SendError();
+		testSendError.wrongTypeOfInput();
 	}
 
 }
